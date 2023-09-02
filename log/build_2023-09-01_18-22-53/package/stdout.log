@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating package.egg-info
+writing package.egg-info/PKG-INFO
+writing dependency_links to package.egg-info/dependency_links.txt
+writing entry points to package.egg-info/entry_points.txt
+writing requirements to package.egg-info/requires.txt
+writing top-level names to package.egg-info/top_level.txt
+writing manifest file 'package.egg-info/SOURCES.txt'
+reading manifest file 'package.egg-info/SOURCES.txt'
+writing manifest file 'package.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dayo/Desktop/scrap_ws/install/package/lib/python3.10/site-packages/package.egg-link (link to .)
+
+Installed /home/dayo/Desktop/scrap_ws/build/package
+running install_data
+creating /home/dayo/Desktop/scrap_ws/install/package/share/ament_index
+creating /home/dayo/Desktop/scrap_ws/install/package/share/ament_index/resource_index
+creating /home/dayo/Desktop/scrap_ws/install/package/share/ament_index/resource_index/packages
+copying resource/package -> /home/dayo/Desktop/scrap_ws/install/package/share/ament_index/resource_index/packages
+copying package.xml -> /home/dayo/Desktop/scrap_ws/install/package/share/package
