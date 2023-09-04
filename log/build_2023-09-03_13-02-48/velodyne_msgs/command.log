@@ -1,2 +1,0 @@
-Invoking command in '/home/dayo/Desktop/scrap_ws/build/velodyne_msgs': /usr/bin/cmake /home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs
-Invoked command in '/home/dayo/Desktop/scrap_ws/build/velodyne_msgs' returned '1': /usr/bin/cmake /home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs

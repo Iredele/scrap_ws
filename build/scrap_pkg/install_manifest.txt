@@ -1,0 +1,16 @@
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//launch/scrap.launch.py
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/ament_index/resource_index/package_run_dependencies/scrap_pkg
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/ament_index/resource_index/parent_prefix_path/scrap_pkg
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/environment/ament_prefix_path.sh
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/environment/ament_prefix_path.dsv
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/environment/path.sh
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/environment/path.dsv
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/local_setup.bash
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/local_setup.sh
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/local_setup.zsh
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/local_setup.dsv
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/package.dsv
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/ament_index/resource_index/packages/scrap_pkg
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/cmake/scrap_pkgConfig.cmake
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/cmake/scrap_pkgConfig-version.cmake
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/package.xml

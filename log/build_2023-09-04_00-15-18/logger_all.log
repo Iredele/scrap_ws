@@ -1,0 +1,537 @@
+[1.438s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.438s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5116b2f3a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5116a83ee0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5116a83ee0>>)
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.491s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dayo/Desktop/scrap_ws'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/scrap_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/scrap_pkg) by extension 'ignore'
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/scrap_pkg) by extension 'ignore_ament_install'
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/scrap_pkg) by extensions ['colcon_pkg']
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/scrap_pkg) by extension 'colcon_pkg'
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/scrap_pkg) by extensions ['colcon_meta']
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/scrap_pkg) by extension 'colcon_meta'
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/scrap_pkg) by extensions ['ros']
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/scrap_pkg) by extension 'ros'
+[1.533s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scrap_pkg' with type 'ros.ament_cmake' and name 'scrap_pkg'
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['ignore', 'ignore_ament_install']
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'ignore'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'ignore_ament_install'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['colcon_pkg']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'colcon_pkg'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['colcon_meta']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'colcon_meta'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['ros']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'ros'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['cmake', 'python']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'cmake'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'python'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['python_setup_py']
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'python_setup_py'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extensions ['ignore', 'ignore_ament_install']
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extension 'ignore'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extension 'ignore_ament_install'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extensions ['colcon_pkg']
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extension 'colcon_pkg'
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extensions ['colcon_meta']
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extension 'colcon_meta'
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extensions ['ros']
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extension 'ros'
+[1.555s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne/velodyne' with type 'ros.ament_cmake' and name 'velodyne'
+[1.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extension 'ignore'
+[1.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extension 'ignore_ament_install'
+[1.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extensions ['colcon_pkg']
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extension 'colcon_pkg'
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extensions ['colcon_meta']
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extension 'colcon_meta'
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extensions ['ros']
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extension 'ros'
+[1.558s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne/velodyne_driver' with type 'ros.ament_cmake' and name 'velodyne_driver'
+[1.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[1.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extension 'ignore'
+[1.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extension 'ignore_ament_install'
+[1.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extensions ['colcon_pkg']
+[1.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extension 'colcon_pkg'
+[1.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extensions ['colcon_meta']
+[1.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extension 'colcon_meta'
+[1.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extensions ['ros']
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extension 'ros'
+[1.561s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne/velodyne_laserscan' with type 'ros.ament_cmake' and name 'velodyne_laserscan'
+[1.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extension 'ignore'
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extension 'ignore_ament_install'
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extensions ['colcon_pkg']
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extension 'colcon_pkg'
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extensions ['colcon_meta']
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extension 'colcon_meta'
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extensions ['ros']
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extension 'ros'
+[1.563s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne/velodyne_msgs' with type 'ros.ament_cmake' and name 'velodyne_msgs'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extensions ['ignore', 'ignore_ament_install']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extension 'ignore'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extension 'ignore_ament_install'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extensions ['colcon_pkg']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extension 'colcon_pkg'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extensions ['colcon_meta']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extension 'colcon_meta'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extensions ['ros']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extension 'ros'
+[1.566s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne/velodyne_pointcloud' with type 'ros.ament_cmake' and name 'velodyne_pointcloud'
+[1.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.648s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dayo/Desktop/scrap_ws/install/velodyne' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.648s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.648s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dayo/Desktop/scrap_ws/install/velodyne_driver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.648s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.648s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.649s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dayo/Desktop/scrap_ws/install/usb_cam' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.649s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dayo/Desktop/scrap_ws/install/scrap_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.649s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dayo/Desktop/scrap_ws/install/velodyne' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.649s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.650s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dayo/Desktop/scrap_ws/install/velodyne_driver' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.650s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.650s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.650s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dayo/Desktop/scrap_ws/install/usb_cam' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.650s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dayo/Desktop/scrap_ws/install/scrap_pkg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.652s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/dayo/Desktop/scrap_ws/install
+[1.670s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 294 installed packages in /opt/ros/iron
+[1.672s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.723s] Level 5:colcon.colcon_core.verb:set package 'scrap_pkg' build argument 'cmake_args' from command line to 'None'
+[1.724s] Level 5:colcon.colcon_core.verb:set package 'scrap_pkg' build argument 'cmake_target' from command line to 'None'
+[1.724s] Level 5:colcon.colcon_core.verb:set package 'scrap_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.724s] Level 5:colcon.colcon_core.verb:set package 'scrap_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.724s] Level 5:colcon.colcon_core.verb:set package 'scrap_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.724s] Level 5:colcon.colcon_core.verb:set package 'scrap_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.724s] Level 5:colcon.colcon_core.verb:set package 'scrap_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.725s] Level 5:colcon.colcon_core.verb:set package 'scrap_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.725s] Level 5:colcon.colcon_core.verb:set package 'scrap_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.725s] DEBUG:colcon.colcon_core.verb:Building package 'scrap_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dayo/Desktop/scrap_ws/build/scrap_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dayo/Desktop/scrap_ws/install/scrap_pkg', 'merge_install': False, 'path': '/home/dayo/Desktop/scrap_ws/src/scrap_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_args' from command line to 'None'
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_target' from command line to 'None'
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.729s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dayo/Desktop/scrap_ws/build/velodyne_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan', 'merge_install': False, 'path': '/home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_laserscan', 'symlink_install': False, 'test_result_base': None}
+[1.730s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_args' from command line to 'None'
+[1.730s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_target' from command line to 'None'
+[1.731s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.731s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.731s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.731s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.731s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.731s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.731s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.731s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dayo/Desktop/scrap_ws/build/velodyne_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs', 'merge_install': False, 'path': '/home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.732s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_args' from command line to 'None'
+[1.732s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_target' from command line to 'None'
+[1.732s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.732s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.732s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.733s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.733s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.733s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.733s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.733s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dayo/Desktop/scrap_ws/build/velodyne_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dayo/Desktop/scrap_ws/install/velodyne_driver', 'merge_install': False, 'path': '/home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_driver', 'symlink_install': False, 'test_result_base': None}
+[1.734s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_args' from command line to 'None'
+[1.734s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_target' from command line to 'None'
+[1.734s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.734s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_clean_cache' from command line to 'False'
+[1.734s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_clean_first' from command line to 'False'
+[1.734s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_force_configure' from command line to 'False'
+[1.734s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'ament_cmake_args' from command line to 'None'
+[1.734s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'catkin_cmake_args' from command line to 'None'
+[1.734s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.735s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_pointcloud' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dayo/Desktop/scrap_ws/build/velodyne_pointcloud', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud', 'merge_install': False, 'path': '/home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_pointcloud', 'symlink_install': False, 'test_result_base': None}
+[1.735s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_args' from command line to 'None'
+[1.735s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_target' from command line to 'None'
+[1.736s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.736s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_clean_cache' from command line to 'False'
+[1.736s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_clean_first' from command line to 'False'
+[1.736s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_force_configure' from command line to 'False'
+[1.736s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'ament_cmake_args' from command line to 'None'
+[1.736s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'catkin_cmake_args' from command line to 'None'
+[1.736s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.736s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dayo/Desktop/scrap_ws/build/velodyne', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dayo/Desktop/scrap_ws/install/velodyne', 'merge_install': False, 'path': '/home/dayo/Desktop/scrap_ws/src/velodyne/velodyne', 'symlink_install': False, 'test_result_base': None}
+[1.737s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.740s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.741s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_msgs' with build type 'ament_cmake'
+[1.741s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_msgs'
+[1.750s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.751s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.751s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.756s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_laserscan' with build type 'ament_cmake'
+[1.756s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_laserscan'
+[1.757s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.757s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dayo/Desktop/scrap_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs
+[1.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dayo/Desktop/scrap_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_laserscan -DCMAKE_INSTALL_PREFIX=/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan
+[6.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dayo/Desktop/scrap_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs
+[6.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dayo/Desktop/scrap_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/dayo/Desktop/scrap_ws/build/velodyne_msgs -- -j2 -l2
+[6.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dayo/Desktop/scrap_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_laserscan -DCMAKE_INSTALL_PREFIX=/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan
+[6.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dayo/Desktop/scrap_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/dayo/Desktop/scrap_ws/build/velodyne_laserscan -- -j2 -l2
+[16.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dayo/Desktop/scrap_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/dayo/Desktop/scrap_ws/build/velodyne_msgs -- -j2 -l2
+[16.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dayo/Desktop/scrap_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/dayo/Desktop/scrap_ws/build/velodyne_msgs
+[17.043s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_msgs)
+[17.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dayo/Desktop/scrap_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/dayo/Desktop/scrap_ws/build/velodyne_msgs
+[17.195s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs' for CMake module files
+[17.200s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs' for CMake config files
+[17.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'cmake_prefix_path')
+[17.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.ps1'
+[17.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.dsv'
+[17.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.sh'
+[17.221s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib'
+[17.221s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'ld_library_path_lib')
+[17.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.ps1'
+[17.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.dsv'
+[17.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.sh'
+[17.224s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/bin'
+[17.224s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib/pkgconfig/velodyne_msgs.pc'
+[17.228s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib/python3.10/site-packages'
+[17.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'pythonpath')
+[17.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/pythonpath.ps1'
+[17.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/pythonpath.dsv'
+[17.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/pythonpath.sh'
+[17.231s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/bin'
+[17.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/package.ps1'
+[17.233s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/package.dsv'
+[17.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/package.sh'
+[17.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/package.bash'
+[17.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/package.zsh'
+[17.269s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/colcon-core/packages/velodyne_msgs)
+[17.483s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_msgs)
+[17.485s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs' for CMake module files
+[17.497s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs' for CMake config files
+[17.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'cmake_prefix_path')
+[17.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.ps1'
+[17.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.dsv'
+[17.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.sh'
+[17.504s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib'
+[17.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'ld_library_path_lib')
+[17.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.ps1'
+[17.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.dsv'
+[17.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.sh'
+[17.508s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/bin'
+[17.509s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib/pkgconfig/velodyne_msgs.pc'
+[17.509s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib/python3.10/site-packages'
+[17.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'pythonpath')
+[17.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/pythonpath.ps1'
+[17.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/pythonpath.dsv'
+[17.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/pythonpath.sh'
+[17.514s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/bin'
+[17.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/package.ps1'
+[17.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/package.dsv'
+[17.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/package.sh'
+[17.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/package.bash'
+[17.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/package.zsh'
+[17.520s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/share/colcon-core/packages/velodyne_msgs)
+[17.525s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_driver' with build type 'ament_cmake'
+[17.526s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_driver'
+[17.528s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.528s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dayo/Desktop/scrap_ws/build/velodyne_driver': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib:/home/dayo/Desktop/scrap_ws/install/usb_cam/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake /home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_driver -DCMAKE_INSTALL_PREFIX=/home/dayo/Desktop/scrap_ws/install/velodyne_driver
+[21.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dayo/Desktop/scrap_ws/build/velodyne_driver' returned '0': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib:/home/dayo/Desktop/scrap_ws/install/usb_cam/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake /home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_driver -DCMAKE_INSTALL_PREFIX=/home/dayo/Desktop/scrap_ws/install/velodyne_driver
+[21.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dayo/Desktop/scrap_ws/build/velodyne_driver': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib:/home/dayo/Desktop/scrap_ws/install/usb_cam/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake --build /home/dayo/Desktop/scrap_ws/build/velodyne_driver -- -j2 -l2
+[31.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dayo/Desktop/scrap_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/dayo/Desktop/scrap_ws/build/velodyne_laserscan -- -j2 -l2
+[31.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dayo/Desktop/scrap_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/dayo/Desktop/scrap_ws/build/velodyne_laserscan
+[32.685s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_laserscan)
+[32.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dayo/Desktop/scrap_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/dayo/Desktop/scrap_ws/build/velodyne_laserscan
+[32.687s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan' for CMake module files
+[32.688s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan' for CMake config files
+[32.689s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'cmake_prefix_path')
+[32.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.ps1'
+[32.967s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.dsv'
+[33.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.sh'
+[33.031s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib'
+[33.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'ld_library_path_lib')
+[33.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.ps1'
+[33.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.dsv'
+[33.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.sh'
+[33.033s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/bin'
+[33.034s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib/pkgconfig/velodyne_laserscan.pc'
+[33.034s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib/python3.10/site-packages'
+[33.034s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/bin'
+[33.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.ps1'
+[33.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv'
+[33.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.sh'
+[33.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.bash'
+[33.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.zsh'
+[33.076s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/colcon-core/packages/velodyne_laserscan)
+[33.118s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_laserscan)
+[33.120s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan' for CMake module files
+[33.121s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan' for CMake config files
+[33.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'cmake_prefix_path')
+[33.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.ps1'
+[33.124s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.dsv'
+[33.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.sh'
+[33.126s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib'
+[33.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'ld_library_path_lib')
+[33.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.ps1'
+[33.129s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.dsv'
+[33.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.sh'
+[33.130s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/bin'
+[33.130s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib/pkgconfig/velodyne_laserscan.pc'
+[33.130s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib/python3.10/site-packages'
+[33.130s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/bin'
+[33.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.ps1'
+[33.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv'
+[33.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.sh'
+[33.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.bash'
+[33.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.zsh'
+[33.134s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/colcon-core/packages/velodyne_laserscan)
+[33.136s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_pointcloud' with build type 'ament_cmake'
+[33.136s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_pointcloud'
+[33.137s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[33.137s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[33.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dayo/Desktop/scrap_ws/build/velodyne_pointcloud': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib:/home/dayo/Desktop/scrap_ws/install/usb_cam/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake /home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_pointcloud -DCMAKE_INSTALL_PREFIX=/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud
+[40.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dayo/Desktop/scrap_ws/build/velodyne_pointcloud' returned '0': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib:/home/dayo/Desktop/scrap_ws/install/usb_cam/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake /home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_pointcloud -DCMAKE_INSTALL_PREFIX=/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud
+[40.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dayo/Desktop/scrap_ws/build/velodyne_pointcloud': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib:/home/dayo/Desktop/scrap_ws/install/usb_cam/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake --build /home/dayo/Desktop/scrap_ws/build/velodyne_pointcloud -- -j2 -l2
+[48.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dayo/Desktop/scrap_ws/build/velodyne_driver' returned '0': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib:/home/dayo/Desktop/scrap_ws/install/usb_cam/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake --build /home/dayo/Desktop/scrap_ws/build/velodyne_driver -- -j2 -l2
+[48.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dayo/Desktop/scrap_ws/build/velodyne_driver': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib:/home/dayo/Desktop/scrap_ws/install/usb_cam/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake --install /home/dayo/Desktop/scrap_ws/build/velodyne_driver
+[48.582s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_driver)
+[48.584s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_driver' for CMake module files
+[48.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dayo/Desktop/scrap_ws/build/velodyne_driver' returned '0': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib:/home/dayo/Desktop/scrap_ws/install/usb_cam/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake --install /home/dayo/Desktop/scrap_ws/build/velodyne_driver
+[48.585s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_driver' for CMake config files
+[48.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'cmake_prefix_path')
+[48.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.ps1'
+[48.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.dsv'
+[48.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.sh'
+[48.588s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib'
+[48.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'ld_library_path_lib')
+[48.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.ps1'
+[48.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.dsv'
+[48.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.sh'
+[48.590s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/bin'
+[48.590s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib/pkgconfig/velodyne_driver.pc'
+[48.590s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib/python3.10/site-packages'
+[48.590s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/bin'
+[48.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.ps1'
+[48.591s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.dsv'
+[48.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.sh'
+[48.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.bash'
+[48.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.zsh'
+[48.595s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/colcon-core/packages/velodyne_driver)
+[48.645s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_driver)
+[48.647s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_driver' for CMake module files
+[48.647s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_driver' for CMake config files
+[48.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'cmake_prefix_path')
+[48.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.ps1'
+[48.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.dsv'
+[48.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.sh'
+[48.651s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib'
+[48.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'ld_library_path_lib')
+[48.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.ps1'
+[48.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.dsv'
+[48.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.sh'
+[48.656s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/bin'
+[48.656s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib/pkgconfig/velodyne_driver.pc'
+[48.656s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib/python3.10/site-packages'
+[48.657s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/bin'
+[48.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.ps1'
+[48.665s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.dsv'
+[48.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.sh'
+[48.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.bash'
+[48.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.zsh'
+[48.668s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dayo/Desktop/scrap_ws/install/velodyne_driver/share/colcon-core/packages/velodyne_driver)
+[48.670s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dayo/Desktop/scrap_ws/src/scrap_pkg' with build type 'ament_cmake'
+[48.670s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dayo/Desktop/scrap_ws/src/scrap_pkg'
+[48.671s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[48.671s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[48.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dayo/Desktop/scrap_ws/build/scrap_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/dayo/Desktop/scrap_ws/src/scrap_pkg -DCMAKE_INSTALL_PREFIX=/home/dayo/Desktop/scrap_ws/install/scrap_pkg
+[49.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dayo/Desktop/scrap_ws/build/scrap_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/dayo/Desktop/scrap_ws/src/scrap_pkg -DCMAKE_INSTALL_PREFIX=/home/dayo/Desktop/scrap_ws/install/scrap_pkg
+[49.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dayo/Desktop/scrap_ws/build/scrap_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/dayo/Desktop/scrap_ws/build/scrap_pkg -- -j2 -l2
+[49.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dayo/Desktop/scrap_ws/build/scrap_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/dayo/Desktop/scrap_ws/build/scrap_pkg -- -j2 -l2
+[49.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dayo/Desktop/scrap_ws/build/scrap_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/dayo/Desktop/scrap_ws/build/scrap_pkg
+[49.816s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scrap_pkg)
+[49.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dayo/Desktop/scrap_ws/build/scrap_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/dayo/Desktop/scrap_ws/build/scrap_pkg
+[49.818s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/scrap_pkg' for CMake module files
+[49.818s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/scrap_pkg' for CMake config files
+[49.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('scrap_pkg', 'cmake_prefix_path')
+[49.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/hook/cmake_prefix_path.ps1'
+[49.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/hook/cmake_prefix_path.dsv'
+[49.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/hook/cmake_prefix_path.sh'
+[49.821s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/bin'
+[49.822s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/lib/pkgconfig/scrap_pkg.pc'
+[49.823s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/lib/python3.10/site-packages'
+[49.823s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/bin'
+[49.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/package.ps1'
+[49.826s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/package.dsv'
+[49.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/package.sh'
+[49.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/package.bash'
+[49.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/package.zsh'
+[49.829s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/colcon-core/packages/scrap_pkg)
+[49.858s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scrap_pkg)
+[49.864s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/scrap_pkg' for CMake module files
+[49.865s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/scrap_pkg' for CMake config files
+[49.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('scrap_pkg', 'cmake_prefix_path')
+[49.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/hook/cmake_prefix_path.ps1'
+[49.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/hook/cmake_prefix_path.dsv'
+[49.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/hook/cmake_prefix_path.sh'
+[49.868s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/bin'
+[49.869s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/lib/pkgconfig/scrap_pkg.pc'
+[49.869s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/lib/python3.10/site-packages'
+[49.869s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/bin'
+[49.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/package.ps1'
+[49.916s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/package.dsv'
+[49.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/package.sh'
+[49.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/package.bash'
+[49.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/package.zsh'
+[49.919s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/colcon-core/packages/scrap_pkg)
+[90.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dayo/Desktop/scrap_ws/build/velodyne_pointcloud' returned '0': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib:/home/dayo/Desktop/scrap_ws/install/usb_cam/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake --build /home/dayo/Desktop/scrap_ws/build/velodyne_pointcloud -- -j2 -l2
+[90.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dayo/Desktop/scrap_ws/build/velodyne_pointcloud': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib:/home/dayo/Desktop/scrap_ws/install/usb_cam/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake --install /home/dayo/Desktop/scrap_ws/build/velodyne_pointcloud
+[90.710s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_pointcloud)
+[90.712s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud' for CMake module files
+[90.714s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud' for CMake config files
+[90.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'cmake_prefix_path')
+[90.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.ps1'
+[90.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.dsv'
+[90.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.sh'
+[90.718s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib'
+[90.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'ld_library_path_lib')
+[90.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.ps1'
+[90.719s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.dsv'
+[90.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.sh'
+[90.720s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/bin'
+[90.721s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib/pkgconfig/velodyne_pointcloud.pc'
+[90.721s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib/python3.10/site-packages'
+[90.721s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/bin'
+[90.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.ps1'
+[90.723s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv'
+[90.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.sh'
+[90.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.bash'
+[90.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.zsh'
+[90.726s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/colcon-core/packages/velodyne_pointcloud)
+[90.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dayo/Desktop/scrap_ws/build/velodyne_pointcloud' returned '0': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib:/home/dayo/Desktop/scrap_ws/install/usb_cam/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake --install /home/dayo/Desktop/scrap_ws/build/velodyne_pointcloud
+[90.762s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_pointcloud)
+[90.764s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud' for CMake module files
+[90.768s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud' for CMake config files
+[90.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'cmake_prefix_path')
+[90.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.ps1'
+[90.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.dsv'
+[90.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.sh'
+[90.771s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib'
+[90.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'ld_library_path_lib')
+[90.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.ps1'
+[90.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.dsv'
+[90.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.sh'
+[90.774s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/bin'
+[90.774s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib/pkgconfig/velodyne_pointcloud.pc'
+[90.774s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib/python3.10/site-packages'
+[90.774s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/bin'
+[90.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.ps1'
+[90.777s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv'
+[90.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.sh'
+[90.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.bash'
+[90.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.zsh'
+[90.778s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/share/colcon-core/packages/velodyne_pointcloud)
+[90.779s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dayo/Desktop/scrap_ws/src/velodyne/velodyne' with build type 'ament_cmake'
+[90.779s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dayo/Desktop/scrap_ws/src/velodyne/velodyne'
+[90.781s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[90.781s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[90.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dayo/Desktop/scrap_ws/build/velodyne': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron /usr/bin/cmake /home/dayo/Desktop/scrap_ws/src/velodyne/velodyne -DCMAKE_INSTALL_PREFIX=/home/dayo/Desktop/scrap_ws/install/velodyne
+[91.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dayo/Desktop/scrap_ws/build/velodyne' returned '0': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron /usr/bin/cmake /home/dayo/Desktop/scrap_ws/src/velodyne/velodyne -DCMAKE_INSTALL_PREFIX=/home/dayo/Desktop/scrap_ws/install/velodyne
+[91.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dayo/Desktop/scrap_ws/build/velodyne': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron /usr/bin/cmake --build /home/dayo/Desktop/scrap_ws/build/velodyne -- -j2 -l2
+[91.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dayo/Desktop/scrap_ws/build/velodyne' returned '0': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron /usr/bin/cmake --build /home/dayo/Desktop/scrap_ws/build/velodyne -- -j2 -l2
+[91.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dayo/Desktop/scrap_ws/build/velodyne': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron /usr/bin/cmake --install /home/dayo/Desktop/scrap_ws/build/velodyne
+[91.520s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne)
+[91.522s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne' for CMake module files
+[91.523s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne' for CMake config files
+[91.523s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne', 'cmake_prefix_path')
+[91.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dayo/Desktop/scrap_ws/build/velodyne' returned '0': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron /usr/bin/cmake --install /home/dayo/Desktop/scrap_ws/build/velodyne
+[91.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.ps1'
+[91.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.dsv'
+[91.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.sh'
+[91.526s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne/bin'
+[91.526s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne/lib/pkgconfig/velodyne.pc'
+[91.526s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne/lib/python3.10/site-packages'
+[91.526s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne/bin'
+[91.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne/share/velodyne/package.ps1'
+[91.528s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne/share/velodyne/package.dsv'
+[91.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne/share/velodyne/package.sh'
+[91.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne/share/velodyne/package.bash'
+[91.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne/share/velodyne/package.zsh'
+[91.529s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dayo/Desktop/scrap_ws/install/velodyne/share/colcon-core/packages/velodyne)
+[91.566s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne)
+[91.568s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne' for CMake module files
+[91.568s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne' for CMake config files
+[91.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne', 'cmake_prefix_path')
+[91.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.ps1'
+[91.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.dsv'
+[91.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dayo/Desktop/scrap_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.sh'
+[91.571s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne/bin'
+[91.571s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne/lib/pkgconfig/velodyne.pc'
+[91.572s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne/lib/python3.10/site-packages'
+[91.572s] Level 1:colcon.colcon_core.environment:checking '/home/dayo/Desktop/scrap_ws/install/velodyne/bin'
+[91.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne/share/velodyne/package.ps1'
+[91.573s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dayo/Desktop/scrap_ws/install/velodyne/share/velodyne/package.dsv'
+[91.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne/share/velodyne/package.sh'
+[91.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne/share/velodyne/package.bash'
+[91.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/dayo/Desktop/scrap_ws/install/velodyne/share/velodyne/package.zsh'
+[91.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dayo/Desktop/scrap_ws/install/velodyne/share/colcon-core/packages/velodyne)
+[91.578s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[91.580s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[91.581s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[91.581s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[91.705s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[91.705s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[91.705s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[92.039s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[92.041s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dayo/Desktop/scrap_ws/install/local_setup.ps1'
+[92.057s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dayo/Desktop/scrap_ws/install/_local_setup_util_ps1.py'
+[92.078s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dayo/Desktop/scrap_ws/install/setup.ps1'
+[92.081s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dayo/Desktop/scrap_ws/install/local_setup.sh'
+[92.102s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dayo/Desktop/scrap_ws/install/_local_setup_util_sh.py'
+[92.103s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dayo/Desktop/scrap_ws/install/setup.sh'
+[92.106s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dayo/Desktop/scrap_ws/install/local_setup.bash'
+[92.107s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dayo/Desktop/scrap_ws/install/setup.bash'
+[92.109s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dayo/Desktop/scrap_ws/install/local_setup.zsh'
+[92.127s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dayo/Desktop/scrap_ws/install/setup.zsh'

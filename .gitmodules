@@ -2,3 +2,7 @@
 	path = velodyne
 	url = https://github.com/ros-drivers/velodyne.git
 	branch = ros2
+[submodule "src/usb_cam"]
+	path = src/usb_cam
+	url = https://github.com/ros-drivers/usb_cam.git
+	branch = ros2

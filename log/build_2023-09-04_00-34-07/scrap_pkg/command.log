@@ -1,0 +1,4 @@
+Invoking command in '/home/dayo/Desktop/scrap_ws/build/scrap_pkg': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/dayo/Desktop/scrap_ws/build/scrap_pkg -- -j2 -l2
+Invoked command in '/home/dayo/Desktop/scrap_ws/build/scrap_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/dayo/Desktop/scrap_ws/build/scrap_pkg -- -j2 -l2
+Invoking command in '/home/dayo/Desktop/scrap_ws/build/scrap_pkg': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/dayo/Desktop/scrap_ws/build/scrap_pkg
+Invoked command in '/home/dayo/Desktop/scrap_ws/build/scrap_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/dayo/Desktop/scrap_ws/build/scrap_pkg
