@@ -21,9 +21,9 @@ def generate_launch_description():
             executable='usb_cam_node_exe'
         )
 
-    # talker_node = Node(
-    #     package='demo_nodes_cpp',
-    #     executable='talker'
+    # motor_driver_node = Node(
+    #     package='scrap_pkg',
+    #     executable='motor_driver_node'
     # )
 
     # listener_node = Node(
