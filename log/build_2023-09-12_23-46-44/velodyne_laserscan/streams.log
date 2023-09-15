@@ -1,0 +1,81 @@
+[0.026s] Invoking command in '/home/dayo/Desktop/scrap_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_laserscan -DCMAKE_INSTALL_PREFIX=/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan
+[0.202s] -- The C compiler identification is GNU 11.4.0
+[0.310s] -- The CXX compiler identification is GNU 11.4.0
+[0.324s] -- Detecting C compiler ABI info
+[0.560s] -- Detecting C compiler ABI info - done
+[0.565s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.573s] -- Detecting C compile features
+[0.573s] -- Detecting C compile features - done
+[0.583s] -- Detecting CXX compiler ABI info
+[0.809s] -- Detecting CXX compiler ABI info - done
+[0.828s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.828s] -- Detecting CXX compile features
+[0.829s] -- Detecting CXX compile features - done
+[0.846s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[1.196s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.511s] -- Found rclcpp: 21.0.2 (/opt/ros/iron/share/rclcpp/cmake)
+[1.653s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.698s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.772s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.839s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.233s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.237s] -- Found rmw_cyclonedds_cpp: 1.6.0 (/opt/ros/iron/share/rmw_cyclonedds_cpp/cmake)
+[2.339s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.672s] -- Found rclcpp_components: 21.0.2 (/opt/ros/iron/share/rclcpp_components/cmake)
+[2.822s] -- Found sensor_msgs: 5.0.0 (/opt/ros/iron/share/sensor_msgs/cmake)
+[3.182s] -- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[3.364s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.365s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.365s] -- Configured cppcheck include dirs: /home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_laserscan/include
+[3.366s] -- Configured cppcheck exclude dirs and/or files: 
+[3.367s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.367s] -- Configured cpplint exclude dirs and/or files: 
+[3.368s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.368s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.369s] -- Added test 'lint_cmake' to check CMake code style
+[3.378s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.380s] -- Added test 'uncrustify' to check C / C++ code style
+[3.380s] -- Configured uncrustify additional arguments: 
+[3.381s] -- Added test 'xmllint' to check XML markup files
+[3.382s] -- Configuring done
+[3.412s] -- Generating done
+[3.423s] -- Build files have been written to: /home/dayo/Desktop/scrap_ws/build/velodyne_laserscan
+[3.432s] Invoked command in '/home/dayo/Desktop/scrap_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/dayo/Desktop/scrap_ws/src/velodyne/velodyne_laserscan -DCMAKE_INSTALL_PREFIX=/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan
+[3.440s] Invoking command in '/home/dayo/Desktop/scrap_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/dayo/Desktop/scrap_ws/build/velodyne_laserscan -- -j2 -l2
+[3.584s] [ 25%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan.dir/src/velodyne_laserscan.cpp.o[0m
+[29.672s] [ 50%] [32m[1mLinking CXX shared library libvelodyne_laserscan.so[0m
+[30.695s] [ 50%] Built target velodyne_laserscan
+[30.970s] [ 75%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan_node.dir/src/node.cpp.o[0m
+[35.717s] [100%] [32m[1mLinking CXX executable velodyne_laserscan_node[0m
+[36.142s] [100%] Built target velodyne_laserscan_node
+[36.175s] Invoked command in '/home/dayo/Desktop/scrap_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/dayo/Desktop/scrap_ws/build/velodyne_laserscan -- -j2 -l2
+[36.210s] Invoking command in '/home/dayo/Desktop/scrap_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/dayo/Desktop/scrap_ws/build/velodyne_laserscan
+[36.221s] -- Install configuration: ""
+[36.221s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib/libvelodyne_laserscan.so
+[36.229s] -- Set runtime path of "/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib/libvelodyne_laserscan.so" to ""
+[36.229s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib/velodyne_laserscan/velodyne_laserscan_node
+[36.233s] -- Set runtime path of "/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib/velodyne_laserscan/velodyne_laserscan_node" to ""
+[36.233s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/include/velodyne_laserscan
+[36.234s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/include/velodyne_laserscan/velodyne_laserscan.hpp
+[36.234s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/config
+[36.234s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/config/default-velodyne_laserscan_node-params.yaml
+[36.234s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/launch
+[36.234s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-composed-launch.py
+[36.234s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-launch.py
+[36.234s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/ament_index/resource_index/package_run_dependencies/velodyne_laserscan
+[36.239s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/ament_index/resource_index/parent_prefix_path/velodyne_laserscan
+[36.240s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.sh
+[36.241s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.dsv
+[36.242s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.sh
+[36.242s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.dsv
+[36.243s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.bash
+[36.244s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.sh
+[36.245s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.zsh
+[36.245s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.dsv
+[36.246s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv
+[36.246s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/ament_index/resource_index/packages/velodyne_laserscan
+[36.247s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/ament_index/resource_index/rclcpp_components/velodyne_laserscan
+[36.247s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig.cmake
+[36.247s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig-version.cmake
+[36.249s] -- Installing: /home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.xml
+[36.251s] Invoked command in '/home/dayo/Desktop/scrap_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/dayo/Desktop/scrap_ws/build/velodyne_laserscan

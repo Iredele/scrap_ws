@@ -1,4 +1,15 @@
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//launch/rsp.launch.py
 /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//launch/scrap.launch.py
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//description/face.xacro
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//description/inertial_macros.xacro
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//description/lidar.xacro
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//description/gazebo_control.xacro
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//description/camera.xacro
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//description/depth_camera.xacro
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//description/ros2_control.xacro
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//description/robot.urdf.xacro
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//description/robot_core.xacro
+/home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//config/view_bot.rviz
 /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/ament_index/resource_index/package_run_dependencies/scrap_pkg
 /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/ament_index/resource_index/parent_prefix_path/scrap_pkg
 /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/environment/ament_prefix_path.sh

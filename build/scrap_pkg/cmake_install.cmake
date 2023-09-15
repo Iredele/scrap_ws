@@ -43,7 +43,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scrap_pkg/" TYPE DIRECTORY FILES "/home/dayo/Desktop/scrap_ws/src/scrap_pkg/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scrap_pkg/" TYPE DIRECTORY FILES
+    "/home/dayo/Desktop/scrap_ws/src/scrap_pkg/launch"
+    "/home/dayo/Desktop/scrap_ws/src/scrap_pkg/description"
+    "/home/dayo/Desktop/scrap_ws/src/scrap_pkg/config"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

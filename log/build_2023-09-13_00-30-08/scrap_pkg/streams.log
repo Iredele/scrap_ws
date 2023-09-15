@@ -1,0 +1,39 @@
+[0.033s] Invoking command in '/home/dayo/Desktop/scrap_ws/build/scrap_pkg': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/dayo/Desktop/scrap_ws/install/usb_cam/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake --build /home/dayo/Desktop/scrap_ws/build/scrap_pkg -- -j2 -l2
+[0.447s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.122s] -- Configuring done
+[1.150s] -- Generating done
+[1.159s] -- Build files have been written to: /home/dayo/Desktop/scrap_ws/build/scrap_pkg
+[1.201s] Invoked command in '/home/dayo/Desktop/scrap_ws/build/scrap_pkg' returned '0': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/dayo/Desktop/scrap_ws/install/usb_cam/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake --build /home/dayo/Desktop/scrap_ws/build/scrap_pkg -- -j2 -l2
+[1.282s] Invoking command in '/home/dayo/Desktop/scrap_ws/build/scrap_pkg': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/dayo/Desktop/scrap_ws/install/usb_cam/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake --install /home/dayo/Desktop/scrap_ws/build/scrap_pkg
+[1.297s] -- Install configuration: ""
+[1.300s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//launch
+[1.300s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//launch/rsp.launch.py
+[1.300s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//launch/scrap.launch.py
+[1.301s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//description
+[1.301s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//description/face.xacro
+[1.301s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//description/inertial_macros.xacro
+[1.301s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//description/lidar.xacro
+[1.301s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//description/gazebo_control.xacro
+[1.301s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//description/camera.xacro
+[1.301s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//description/depth_camera.xacro
+[1.301s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//description/ros2_control.xacro
+[1.301s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//description/robot.urdf.xacro
+[1.301s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//description/robot_core.xacro
+[1.301s] -- Installing: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//config
+[1.301s] -- Installing: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg//config/view_bot.rviz
+[1.301s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/ament_index/resource_index/package_run_dependencies/scrap_pkg
+[1.301s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/ament_index/resource_index/parent_prefix_path/scrap_pkg
+[1.301s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/environment/ament_prefix_path.sh
+[1.301s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/environment/ament_prefix_path.dsv
+[1.301s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/environment/path.sh
+[1.301s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/environment/path.dsv
+[1.301s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/local_setup.bash
+[1.301s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/local_setup.sh
+[1.301s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/local_setup.zsh
+[1.302s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/local_setup.dsv
+[1.302s] -- Installing: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/package.dsv
+[1.302s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/ament_index/resource_index/packages/scrap_pkg
+[1.302s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/cmake/scrap_pkgConfig.cmake
+[1.302s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/cmake/scrap_pkgConfig-version.cmake
+[1.302s] -- Up-to-date: /home/dayo/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/package.xml
+[1.308s] Invoked command in '/home/dayo/Desktop/scrap_ws/build/scrap_pkg' returned '0': CMAKE_PREFIX_PATH=/home/dayo/Desktop/scrap_ws/install/usb_cam:/home/dayo/Desktop/scrap_ws/install/velodyne:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud:/home/dayo/Desktop/scrap_ws/install/velodyne_driver:/home/dayo/Desktop/scrap_ws/install/velodyne_msgs:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan:/home/dayo/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/dayo/Desktop/scrap_ws/install/usb_cam/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_pointcloud/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_driver/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib:/home/dayo/Desktop/scrap_ws/install/velodyne_laserscan/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake --install /home/dayo/Desktop/scrap_ws/build/scrap_pkg

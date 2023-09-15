@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "velodyne_msgs/msg/detail/velodyne_packet__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
-#include "velodyne_msgs/msg/detail/velodyne_packet__struct.h"
 #include "velodyne_msgs/msg/detail/velodyne_packet__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "velodyne_msgs/msg/detail/velodyne_packet__type_support.h"
+#include "velodyne_msgs/msg/detail/velodyne_packet__struct.h"
 
 #ifdef __cplusplus
 extern "C"

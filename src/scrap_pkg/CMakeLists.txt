@@ -8,8 +8,8 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 
-install(DIRECTORY
-launch
+install(
+DIRECTORY launch description config
 DESTINATION share/${PROJECT_NAME}/
 
 )
