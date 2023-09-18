@@ -1,9 +1,0 @@
-/home/dayo/Desktop/scrap_ws/build/scrap_pkg/CMakeFiles/uninstall.dir
-/home/dayo/Desktop/scrap_ws/build/scrap_pkg/CMakeFiles/scrap_pkg_uninstall.dir
-/home/dayo/Desktop/scrap_ws/build/scrap_pkg/CMakeFiles/test.dir
-/home/dayo/Desktop/scrap_ws/build/scrap_pkg/CMakeFiles/edit_cache.dir
-/home/dayo/Desktop/scrap_ws/build/scrap_pkg/CMakeFiles/rebuild_cache.dir
-/home/dayo/Desktop/scrap_ws/build/scrap_pkg/CMakeFiles/list_install_components.dir
-/home/dayo/Desktop/scrap_ws/build/scrap_pkg/CMakeFiles/install.dir
-/home/dayo/Desktop/scrap_ws/build/scrap_pkg/CMakeFiles/install/local.dir
-/home/dayo/Desktop/scrap_ws/build/scrap_pkg/CMakeFiles/install/strip.dir
