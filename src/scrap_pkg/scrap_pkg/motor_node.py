@@ -14,10 +14,10 @@ class MotorDriver(Node):
             10
         )
 
-        self.left_motor_pin = 17
-        self.left_motor_dir = 18
-        self.right_motor_pin = 27
-        self.right_motor_dir = 22
+        self.left_motor_pin = 13    #black
+        self.left_motor_dir = 6     #yellow
+        self.right_motor_pin = 12   #grey
+        self.right_motor_dir = 5    #orange
 
         GPIO.setmode(GPIO.BCM)
         GPIO.setup(self.left_motor_pin, GPIO.OUT)
