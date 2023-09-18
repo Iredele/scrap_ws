@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/dayo/Desktop/scrap_ws/install/scrap_pkg/lib/python3.10/site-packages",
+        "/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/dayo/Desktop/scrap_ws/install/scrap_pkg/lib/python3.10/site-packages",
+        "/home/dayo/Desktop/scrap_ws/install/velodyne_msgs/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
