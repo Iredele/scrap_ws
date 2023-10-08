@@ -1,0 +1,22 @@
+[23.039s] Invoking command in '/home/pi/Desktop/scrap_ws/build/scrap_pkg': PYTHONPATH=/home/pi/Desktop/scrap_ws/build/scrap_pkg/prefix_override:/home/pi/Desktop/scrap_ws/install/scrap_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/Desktop/scrap_ws/build/scrap_pkg/build --no-deps install_data
+[24.732s] running develop
+[24.785s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[24.786s]   warnings.warn(
+[24.791s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[24.792s]   warnings.warn(
+[26.248s] running egg_info
+[26.254s] writing scrap_pkg.egg-info/PKG-INFO
+[26.279s] writing dependency_links to scrap_pkg.egg-info/dependency_links.txt
+[26.325s] writing entry points to scrap_pkg.egg-info/entry_points.txt
+[26.325s] writing requirements to scrap_pkg.egg-info/requires.txt
+[26.326s] writing top-level names to scrap_pkg.egg-info/top_level.txt
+[26.335s] reading manifest file 'scrap_pkg.egg-info/SOURCES.txt'
+[26.359s] writing manifest file 'scrap_pkg.egg-info/SOURCES.txt'
+[26.433s] running build_ext
+[26.435s] Creating /home/pi/Desktop/scrap_ws/install/scrap_pkg/lib/python3.10/site-packages/scrap-pkg.egg-link (link to .)
+[26.461s] Installing motor_node script to /home/pi/Desktop/scrap_ws/install/scrap_pkg/lib/scrap_pkg
+[26.463s] 
+[26.463s] Installed /home/pi/Desktop/scrap_ws/build/scrap_pkg
+[26.465s] running install_data
+[26.467s] copying description/ros2_control.xacro -> /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/description
+[27.425s] Invoked command in '/home/pi/Desktop/scrap_ws/build/scrap_pkg' returned '0': PYTHONPATH=/home/pi/Desktop/scrap_ws/build/scrap_pkg/prefix_override:/home/pi/Desktop/scrap_ws/install/scrap_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/Desktop/scrap_ws/build/scrap_pkg/build --no-deps install_data

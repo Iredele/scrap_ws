@@ -1,0 +1,59 @@
+[0.460s] Invoking command in '/home/pi/Desktop/scrap_ws/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/velodyne_pointcloud -- -j4 -l4
+[1.666s] [ 11%] Built target gtest
+[1.699s] [ 22%] Built target gtest_main
+[1.826s] [ 38%] Built target velodyne_cloud_types
+[1.831s] [ 55%] Built target velodyne_rawdata
+[2.167s] [ 66%] Built target test_row_step
+[2.288s] [ 77%] Built target test_calibration
+[2.338s] [ 88%] Built target transform
+[2.766s] [100%] Built target velodyne_transform_node
+[2.814s] Invoked command in '/home/pi/Desktop/scrap_ws/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/velodyne_pointcloud -- -j4 -l4
+[3.008s] Invoking command in '/home/pi/Desktop/scrap_ws/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/velodyne_pointcloud
+[3.059s] -- Install configuration: ""
+[3.119s] -- Execute custom install script
+[3.181s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so
+[3.185s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so
+[3.226s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/lib/libtransform.so
+[3.269s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_transform_node
+[3.276s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/include/velodyne_pointcloud/calibration.hpp
+[3.280s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/include/velodyne_pointcloud/datacontainerbase.hpp
+[3.282s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/include/velodyne_pointcloud/organized_cloudXYZIRT.hpp
+[3.288s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/include/velodyne_pointcloud/pointcloudXYZIRT.hpp
+[3.291s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/include/velodyne_pointcloud/rawdata.hpp
+[3.293s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/include/velodyne_pointcloud/transform.hpp
+[3.307s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP16-velodyne_transform_node-params.yaml
+[3.312s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP32C-velodyne_transform_node-params.yaml
+[3.316s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLS128-velodyne_transform_node-params.yaml
+[3.327s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-composed-launch.py
+[3.331s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-launch.py
+[3.334s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-composed-launch.py
+[3.338s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-launch.py
+[3.340s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLS128-composed-launch.py
+[3.342s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLS128-launch.py
+[3.350s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/params/32db.yaml
+[3.353s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s2.1-sztaki.yaml
+[3.355s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s3-xiesc.yaml
+[3.358s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_utexas.yaml
+[3.360s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16_hires_db.yaml
+[3.363s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16db.yaml
+[3.365s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLS128.yaml
+[3.368s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VeloView-VLP-32C.yaml
+[3.370s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/params/issue_84_float_intensities.yaml
+[3.373s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/params/rviz_points.vcg
+[3.380s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/ament_index/resource_index/package_run_dependencies/velodyne_pointcloud
+[3.384s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/ament_index/resource_index/parent_prefix_path/velodyne_pointcloud
+[3.389s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.sh
+[3.391s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.dsv
+[3.395s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.sh
+[3.399s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.dsv
+[3.402s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.bash
+[3.405s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.sh
+[3.408s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.zsh
+[3.411s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.dsv
+[3.412s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv
+[3.472s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/ament_index/resource_index/packages/velodyne_pointcloud
+[3.476s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/ament_index/resource_index/rclcpp_components/velodyne_pointcloud
+[3.480s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig.cmake
+[3.483s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig-version.cmake
+[3.486s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.xml
+[3.860s] Invoked command in '/home/pi/Desktop/scrap_ws/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/velodyne_pointcloud

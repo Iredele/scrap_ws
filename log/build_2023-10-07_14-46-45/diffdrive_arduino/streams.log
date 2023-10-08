@@ -1,0 +1,83 @@
+[0.821s] Invoking command in '/home/pi/Desktop/scrap_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/Desktop/scrap_ws/src/diff_drive_HWInterface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/Desktop/scrap_ws/install/diffdrive_arduino
+[4.062s] -- The CXX compiler identification is GNU 11.4.0
+[4.140s] -- Detecting CXX compiler ABI info
+[4.977s] -- Detecting CXX compiler ABI info - done
+[5.059s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.087s] -- Detecting CXX compile features
+[5.097s] -- Detecting CXX compile features - done
+[5.222s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.911s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[7.628s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.472s] -- Found hardware_interface: 2.31.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[9.512s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[9.645s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.844s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[10.101s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.370s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[27.307s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[27.341s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[28.082s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[28.394s] -- Found FastRTPS: /opt/ros/humble/include  
+[28.933s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[29.054s] -- Looking for C++ include pthread.h
+[29.650s] -- Looking for C++ include pthread.h - found
+[29.651s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[30.242s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[30.247s] -- Found Threads: TRUE  
+[31.430s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[31.941s] -- Configuring done
+[34.578s] -- Generating done
+[34.589s] -- Build files have been written to: /home/pi/Desktop/scrap_ws/build/diffdrive_arduino
+[34.637s] Invoked command in '/home/pi/Desktop/scrap_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/Desktop/scrap_ws/src/diff_drive_HWInterface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/Desktop/scrap_ws/install/diffdrive_arduino
+[34.647s] Invoking command in '/home/pi/Desktop/scrap_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/diffdrive_arduino -- -j4 -l4
+[34.882s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o[0m
+[51.030s] [01m[K/home/pi/Desktop/scrap_ws/src/diff_drive_HWInterface/hardware/diffbot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type diffdrive_arduino::DiffDriveArduinoHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[51.031s] [01m[K/home/pi/Desktop/scrap_ws/src/diff_drive_HWInterface/hardware/diffbot_system.cpp:203:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[51.032s]   203 |   const rclcpp::Time & /*time*/, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[51.033s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[56.897s] [100%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[58.752s] [100%] Built target diffdrive_arduino
+[58.823s] Invoked command in '/home/pi/Desktop/scrap_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/diffdrive_arduino -- -j4 -l4
+[59.024s] Invoking command in '/home/pi/Desktop/scrap_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/diffdrive_arduino
+[59.058s] -- Install configuration: ""
+[59.061s] -- Execute custom install script
+[59.063s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino//diffdrive_arduino.xml
+[59.104s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/arduino_comms.hpp
+[59.145s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/diffbot_system.hpp
+[59.181s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/motor_controller.hpp
+[59.221s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/visibility_control.h
+[59.266s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/wheel.hpp
+[59.311s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/view_robot.launch.py
+[59.353s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control/diffbot.ros2_control.xacro
+[59.393s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.materials.xacro
+[59.435s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.urdf.xacro
+[59.476s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot_description.urdf.xacro
+[59.519s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot.rviz
+[59.561s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot_view.rviz
+[59.613s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/diffbot.launch.py
+[59.660s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/config/diffbot_controllers.yaml
+[59.704s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[59.743s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[59.785s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[59.829s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[59.872s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[59.913s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[59.955s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[59.994s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[60.034s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[60.078s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[60.119s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[60.159s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[60.198s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[60.240s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[60.282s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[60.320s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake
+[60.360s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[60.400s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[60.441s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[60.481s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[60.523s] -- Installing: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[60.532s] -- Set runtime path of "/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""
+[60.533s] -- Installing: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake
+[60.535s] -- Installing: /home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake
+[60.544s] Invoked command in '/home/pi/Desktop/scrap_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/diffdrive_arduino

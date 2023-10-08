@@ -1,0 +1,21 @@
+[8.072s] Invoking command in '/home/pi/Desktop/scrap_ws/build/scrap_pkg': PYTHONPATH=/home/pi/Desktop/scrap_ws/build/scrap_pkg/prefix_override:/home/pi/Desktop/scrap_ws/install/scrap_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/Desktop/scrap_ws/build/scrap_pkg/build --no-deps install_data
+[9.625s] running develop
+[9.677s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.678s]   warnings.warn(
+[9.679s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.681s]   warnings.warn(
+[10.873s] running egg_info
+[10.875s] writing scrap_pkg.egg-info/PKG-INFO
+[10.878s] writing dependency_links to scrap_pkg.egg-info/dependency_links.txt
+[10.879s] writing entry points to scrap_pkg.egg-info/entry_points.txt
+[10.881s] writing requirements to scrap_pkg.egg-info/requires.txt
+[10.882s] writing top-level names to scrap_pkg.egg-info/top_level.txt
+[10.894s] reading manifest file 'scrap_pkg.egg-info/SOURCES.txt'
+[10.996s] writing manifest file 'scrap_pkg.egg-info/SOURCES.txt'
+[11.003s] running build_ext
+[11.004s] Creating /home/pi/Desktop/scrap_ws/install/scrap_pkg/lib/python3.10/site-packages/scrap-pkg.egg-link (link to .)
+[11.008s] Installing motor_node script to /home/pi/Desktop/scrap_ws/install/scrap_pkg/lib/scrap_pkg
+[11.010s] 
+[11.010s] Installed /home/pi/Desktop/scrap_ws/build/scrap_pkg
+[11.011s] running install_data
+[11.484s] Invoked command in '/home/pi/Desktop/scrap_ws/build/scrap_pkg' returned '0': PYTHONPATH=/home/pi/Desktop/scrap_ws/build/scrap_pkg/prefix_override:/home/pi/Desktop/scrap_ws/install/scrap_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/Desktop/scrap_ws/build/scrap_pkg/build --no-deps install_data

@@ -1,0 +1,85 @@
+[1.461s] Invoking command in '/home/pi/Desktop/scrap_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/Desktop/scrap_ws/src/velodyne/velodyne_laserscan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/Desktop/scrap_ws/install/velodyne_laserscan
+[4.701s] -- The C compiler identification is GNU 11.4.0
+[5.170s] -- The CXX compiler identification is GNU 11.4.0
+[5.216s] -- Detecting C compiler ABI info
+[5.801s] -- Detecting C compiler ABI info - done
+[5.848s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.851s] -- Detecting C compile features
+[5.855s] -- Detecting C compile features - done
+[5.876s] -- Detecting CXX compiler ABI info
+[6.714s] -- Detecting CXX compiler ABI info - done
+[6.750s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.753s] -- Detecting CXX compile features
+[6.756s] -- Detecting CXX compile features - done
+[6.795s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[8.211s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[8.554s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.147s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[10.158s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[10.291s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[10.491s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[10.748s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.016s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.143s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[16.415s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[18.543s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[18.881s] -- Found FastRTPS: /opt/ros/humble/include  
+[19.434s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[26.548s] -- Looking for pthread.h
+[27.363s] -- Looking for pthread.h - found
+[27.364s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[27.794s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[27.798s] -- Found Threads: TRUE  
+[30.243s] -- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)
+[31.405s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[32.062s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[32.774s] -- Added test 'copyright' to check source files copyright and LICENSE
+[33.024s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[33.025s] -- Configured cppcheck include dirs: /home/pi/Desktop/scrap_ws/src/velodyne/velodyne_laserscan/include
+[33.026s] -- Configured cppcheck exclude dirs and/or files: 
+[33.044s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[33.044s] -- Configured cpplint exclude dirs and/or files: 
+[33.048s] -- Added test 'flake8' to check Python code syntax and style conventions
+[33.054s] -- Added test 'lint_cmake' to check CMake code style
+[33.059s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[33.076s] -- Added test 'uncrustify' to check C / C++ code style
+[33.077s] -- Configured uncrustify additional arguments: 
+[33.081s] -- Added test 'xmllint' to check XML markup files
+[33.091s] -- Configuring done
+[33.202s] -- Generating done
+[33.252s] -- Build files have been written to: /home/pi/Desktop/scrap_ws/build/velodyne_laserscan
+[33.263s] Invoked command in '/home/pi/Desktop/scrap_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/Desktop/scrap_ws/src/velodyne/velodyne_laserscan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/Desktop/scrap_ws/install/velodyne_laserscan
+[33.284s] Invoking command in '/home/pi/Desktop/scrap_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/velodyne_laserscan -- -j4 -l4
+[33.543s] [ 25%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan.dir/src/velodyne_laserscan.cpp.o[0m
+[84.080s] [ 50%] [32m[1mLinking CXX shared library libvelodyne_laserscan.so[0m
+[86.680s] [ 50%] Built target velodyne_laserscan
+[86.778s] [ 75%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan_node.dir/src/node.cpp.o[0m
+[102.411s] [100%] [32m[1mLinking CXX executable velodyne_laserscan_node[0m
+[104.865s] [100%] Built target velodyne_laserscan_node
+[104.962s] Invoked command in '/home/pi/Desktop/scrap_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/velodyne_laserscan -- -j4 -l4
+[105.209s] Invoking command in '/home/pi/Desktop/scrap_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/velodyne_laserscan
+[105.264s] -- Install configuration: ""
+[105.266s] -- Execute custom install script
+[105.268s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/lib/libvelodyne_laserscan.so
+[105.337s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/lib/velodyne_laserscan/velodyne_laserscan_node
+[105.376s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/include/velodyne_laserscan/velodyne_laserscan.hpp
+[105.423s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/config/default-velodyne_laserscan_node-params.yaml
+[105.464s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-composed-launch.py
+[105.506s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-launch.py
+[105.548s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/ament_index/resource_index/package_run_dependencies/velodyne_laserscan
+[105.615s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/ament_index/resource_index/parent_prefix_path/velodyne_laserscan
+[105.688s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.sh
+[105.765s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.dsv
+[105.812s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.sh
+[105.861s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.dsv
+[105.911s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.bash
+[105.963s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.sh
+[106.014s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.zsh
+[106.064s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.dsv
+[106.120s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv
+[106.178s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/ament_index/resource_index/packages/velodyne_laserscan
+[106.244s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/ament_index/resource_index/rclcpp_components/velodyne_laserscan
+[106.303s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig.cmake
+[106.352s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig-version.cmake
+[106.414s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.xml
+[106.491s] Invoked command in '/home/pi/Desktop/scrap_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/velodyne_laserscan

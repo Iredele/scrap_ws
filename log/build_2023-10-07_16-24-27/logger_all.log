@@ -1,0 +1,580 @@
+[5.313s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[5.313s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff957c3490>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff957c0670>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff957c0670>>)
+[5.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.554s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/Desktop/scrap_ws'
+[5.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.609s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.609s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.609s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.610s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.610s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.611s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.611s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.611s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.612s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.612s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.612s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.613s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.613s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.613s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.614s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.614s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.614s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.614s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.614s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.614s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.615s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.615s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.615s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.615s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.615s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive_HWInterface) by extensions ['ignore', 'ignore_ament_install']
+[5.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive_HWInterface) by extension 'ignore'
+[5.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive_HWInterface) by extension 'ignore_ament_install'
+[5.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive_HWInterface) by extensions ['colcon_pkg']
+[5.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive_HWInterface) by extension 'colcon_pkg'
+[5.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive_HWInterface) by extensions ['colcon_meta']
+[5.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive_HWInterface) by extension 'colcon_meta'
+[5.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive_HWInterface) by extensions ['ros']
+[5.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive_HWInterface) by extension 'ros'
+[5.629s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diff_drive_HWInterface' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[5.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/scrap_pkg) by extensions ['ignore', 'ignore_ament_install']
+[5.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/scrap_pkg) by extension 'ignore'
+[5.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/scrap_pkg) by extension 'ignore_ament_install'
+[5.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/scrap_pkg) by extensions ['colcon_pkg']
+[5.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/scrap_pkg) by extension 'colcon_pkg'
+[5.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/scrap_pkg) by extensions ['colcon_meta']
+[5.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/scrap_pkg) by extension 'colcon_meta'
+[5.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/scrap_pkg) by extensions ['ros']
+[5.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/scrap_pkg) by extension 'ros'
+[5.634s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scrap_pkg' with type 'ros.ament_python' and name 'scrap_pkg'
+[5.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ignore', 'ignore_ament_install']
+[5.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore'
+[5.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore_ament_install'
+[5.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_pkg']
+[5.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_pkg'
+[5.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_meta']
+[5.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_meta'
+[5.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ros']
+[5.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ros'
+[5.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['cmake', 'python']
+[5.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'cmake'
+[5.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'python'
+[5.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['python_setup_py']
+[5.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'python_setup_py'
+[5.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['ignore', 'ignore_ament_install']
+[5.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'ignore'
+[5.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'ignore_ament_install'
+[5.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['colcon_pkg']
+[5.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'colcon_pkg'
+[5.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['colcon_meta']
+[5.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'colcon_meta'
+[5.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['ros']
+[5.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'ros'
+[5.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['cmake', 'python']
+[5.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'cmake'
+[5.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'python'
+[5.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['python_setup_py']
+[5.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'python_setup_py'
+[5.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extensions ['ignore', 'ignore_ament_install']
+[5.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extension 'ignore'
+[5.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extension 'ignore_ament_install'
+[5.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extensions ['colcon_pkg']
+[5.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extension 'colcon_pkg'
+[5.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extensions ['colcon_meta']
+[5.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extension 'colcon_meta'
+[5.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extensions ['ros']
+[5.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extension 'ros'
+[5.645s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne/velodyne' with type 'ros.ament_cmake' and name 'velodyne'
+[5.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extensions ['ignore', 'ignore_ament_install']
+[5.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extension 'ignore'
+[5.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extension 'ignore_ament_install'
+[5.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extensions ['colcon_pkg']
+[5.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extension 'colcon_pkg'
+[5.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extensions ['colcon_meta']
+[5.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extension 'colcon_meta'
+[5.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extensions ['ros']
+[5.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extension 'ros'
+[5.653s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne/velodyne_driver' with type 'ros.ament_cmake' and name 'velodyne_driver'
+[5.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[5.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extension 'ignore'
+[5.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extension 'ignore_ament_install'
+[5.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extensions ['colcon_pkg']
+[5.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extension 'colcon_pkg'
+[5.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extensions ['colcon_meta']
+[5.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extension 'colcon_meta'
+[5.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extensions ['ros']
+[5.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extension 'ros'
+[5.658s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne/velodyne_laserscan' with type 'ros.ament_cmake' and name 'velodyne_laserscan'
+[5.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extensions ['ignore', 'ignore_ament_install']
+[5.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extension 'ignore'
+[5.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extension 'ignore_ament_install'
+[5.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extensions ['colcon_pkg']
+[5.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extension 'colcon_pkg'
+[5.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extensions ['colcon_meta']
+[5.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extension 'colcon_meta'
+[5.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extensions ['ros']
+[5.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extension 'ros'
+[5.664s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne/velodyne_msgs' with type 'ros.ament_cmake' and name 'velodyne_msgs'
+[5.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extensions ['ignore', 'ignore_ament_install']
+[5.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extension 'ignore'
+[5.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extension 'ignore_ament_install'
+[5.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extensions ['colcon_pkg']
+[5.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extension 'colcon_pkg'
+[5.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extensions ['colcon_meta']
+[5.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extension 'colcon_meta'
+[5.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extensions ['ros']
+[5.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extension 'ros'
+[5.673s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne/velodyne_pointcloud' with type 'ros.ament_cmake' and name 'velodyne_pointcloud'
+[5.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.314s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 369 installed packages in /opt/ros/humble
+[6.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.891s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[6.891s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[6.892s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.892s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[6.892s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[6.892s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[6.892s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[6.892s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[6.892s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.893s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/Desktop/scrap_ws/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/pi/Desktop/scrap_ws/src/diff_drive_HWInterface', 'symlink_install': True, 'test_result_base': None}
+[6.970s] Level 5:colcon.colcon_core.verb:set package 'scrap_pkg' build argument 'cmake_args' from command line to 'None'
+[6.971s] Level 5:colcon.colcon_core.verb:set package 'scrap_pkg' build argument 'cmake_target' from command line to 'None'
+[6.971s] Level 5:colcon.colcon_core.verb:set package 'scrap_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.971s] Level 5:colcon.colcon_core.verb:set package 'scrap_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[6.971s] Level 5:colcon.colcon_core.verb:set package 'scrap_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[6.971s] Level 5:colcon.colcon_core.verb:set package 'scrap_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[6.971s] Level 5:colcon.colcon_core.verb:set package 'scrap_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[6.971s] Level 5:colcon.colcon_core.verb:set package 'scrap_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[6.971s] Level 5:colcon.colcon_core.verb:set package 'scrap_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.972s] DEBUG:colcon.colcon_core.verb:Building package 'scrap_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/Desktop/scrap_ws/build/scrap_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/Desktop/scrap_ws/install/scrap_pkg', 'merge_install': False, 'path': '/home/pi/Desktop/scrap_ws/src/scrap_pkg', 'symlink_install': True, 'test_result_base': None}
+[7.063s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_args' from command line to 'None'
+[7.064s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_target' from command line to 'None'
+[7.064s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.064s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[7.064s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[7.064s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[7.064s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[7.064s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[7.065s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.065s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/Desktop/scrap_ws/build/velodyne_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan', 'merge_install': False, 'path': '/home/pi/Desktop/scrap_ws/src/velodyne/velodyne_laserscan', 'symlink_install': True, 'test_result_base': None}
+[7.148s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_args' from command line to 'None'
+[7.148s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_target' from command line to 'None'
+[7.149s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.149s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[7.149s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[7.149s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[7.149s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[7.149s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[7.149s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.150s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/Desktop/scrap_ws/build/velodyne_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/Desktop/scrap_ws/install/velodyne_msgs', 'merge_install': False, 'path': '/home/pi/Desktop/scrap_ws/src/velodyne/velodyne_msgs', 'symlink_install': True, 'test_result_base': None}
+[7.250s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_args' from command line to 'None'
+[7.250s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_target' from command line to 'None'
+[7.251s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.251s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[7.251s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_clean_first' from command line to 'False'
+[7.251s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_force_configure' from command line to 'False'
+[7.251s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'ament_cmake_args' from command line to 'None'
+[7.251s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[7.252s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.252s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/Desktop/scrap_ws/build/velodyne_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/Desktop/scrap_ws/install/velodyne_driver', 'merge_install': False, 'path': '/home/pi/Desktop/scrap_ws/src/velodyne/velodyne_driver', 'symlink_install': True, 'test_result_base': None}
+[7.362s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_args' from command line to 'None'
+[7.363s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_target' from command line to 'None'
+[7.363s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.363s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_clean_cache' from command line to 'False'
+[7.363s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_clean_first' from command line to 'False'
+[7.364s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_force_configure' from command line to 'False'
+[7.364s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'ament_cmake_args' from command line to 'None'
+[7.364s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'catkin_cmake_args' from command line to 'None'
+[7.364s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.364s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_pointcloud' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/Desktop/scrap_ws/build/velodyne_pointcloud', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud', 'merge_install': False, 'path': '/home/pi/Desktop/scrap_ws/src/velodyne/velodyne_pointcloud', 'symlink_install': True, 'test_result_base': None}
+[7.477s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_args' from command line to 'None'
+[7.477s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_target' from command line to 'None'
+[7.477s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.478s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_clean_cache' from command line to 'False'
+[7.478s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_clean_first' from command line to 'False'
+[7.478s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_force_configure' from command line to 'False'
+[7.478s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'ament_cmake_args' from command line to 'None'
+[7.478s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'catkin_cmake_args' from command line to 'None'
+[7.478s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.479s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/Desktop/scrap_ws/build/velodyne', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/Desktop/scrap_ws/install/velodyne', 'merge_install': False, 'path': '/home/pi/Desktop/scrap_ws/src/velodyne/velodyne', 'symlink_install': True, 'test_result_base': None}
+[7.581s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.664s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.666s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/Desktop/scrap_ws/src/velodyne/velodyne_msgs' with build type 'ament_cmake'
+[7.666s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/Desktop/scrap_ws/src/velodyne/velodyne_msgs'
+[7.755s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.756s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.756s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.931s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/Desktop/scrap_ws/src/velodyne/velodyne_laserscan' with build type 'ament_cmake'
+[7.932s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/Desktop/scrap_ws/src/velodyne/velodyne_laserscan'
+[8.014s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.014s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.186s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/Desktop/scrap_ws/src/diff_drive_HWInterface' with build type 'ament_cmake'
+[8.187s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/Desktop/scrap_ws/src/diff_drive_HWInterface'
+[8.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.444s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/Desktop/scrap_ws/src/scrap_pkg' with build type 'ament_python'
+[8.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('scrap_pkg', 'ament_prefix_path')
+[8.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/hook/ament_prefix_path.ps1'
+[8.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/hook/ament_prefix_path.dsv'
+[8.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/hook/ament_prefix_path.sh'
+[8.613s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.613s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/Desktop/scrap_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/velodyne_msgs -- -j4 -l4
+[8.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/Desktop/scrap_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/velodyne_laserscan -- -j4 -l4
+[8.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/Desktop/scrap_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/diffdrive_arduino -- -j4 -l4
+[10.663s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/Desktop/scrap_ws/src/scrap_pkg'
+[10.756s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.757s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/Desktop/scrap_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/diffdrive_arduino -- -j4 -l4
+[10.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/Desktop/scrap_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/velodyne_laserscan -- -j4 -l4
+[11.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/Desktop/scrap_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/velodyne_laserscan
+[11.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/Desktop/scrap_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/diffdrive_arduino
+[11.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/Desktop/scrap_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/velodyne_msgs -- -j4 -l4
+[11.374s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_laserscan)
+[11.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/Desktop/scrap_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/velodyne_laserscan
+[11.516s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan' for CMake module files
+[11.519s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan' for CMake config files
+[11.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'cmake_prefix_path')
+[11.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.ps1'
+[11.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.dsv'
+[11.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.sh'
+[11.656s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/lib'
+[11.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'ld_library_path_lib')
+[11.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.ps1'
+[11.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.dsv'
+[11.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.sh'
+[11.767s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/bin'
+[11.767s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/lib/pkgconfig/velodyne_laserscan.pc'
+[11.768s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/lib/python3.10/site-packages'
+[11.770s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/bin'
+[11.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.ps1'
+[11.870s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv'
+[11.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.sh'
+[11.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.bash'
+[11.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.zsh'
+[11.884s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/colcon-core/packages/velodyne_laserscan)
+[11.893s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[11.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/Desktop/scrap_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/diffdrive_arduino
+[12.004s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino' for CMake module files
+[12.008s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino' for CMake config files
+[12.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[12.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[12.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[12.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[12.114s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/lib'
+[12.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[12.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[12.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[12.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[12.207s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/bin'
+[12.207s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[12.209s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/lib/python3.10/site-packages'
+[12.210s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/bin'
+[12.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[12.304s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[12.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[12.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[12.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[12.313s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[12.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/Desktop/scrap_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/velodyne_msgs
+[12.565s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_laserscan)
+[12.690s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan' for CMake module files
+[12.693s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan' for CMake config files
+[12.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'cmake_prefix_path')
+[12.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.ps1'
+[12.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.dsv'
+[12.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.sh'
+[12.851s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/lib'
+[12.852s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'ld_library_path_lib')
+[12.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.ps1'
+[12.939s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.dsv'
+[12.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.sh'
+[12.944s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/bin'
+[12.944s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/lib/pkgconfig/velodyne_laserscan.pc'
+[12.945s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/lib/python3.10/site-packages'
+[12.946s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/bin'
+[13.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.ps1'
+[13.049s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv'
+[13.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.sh'
+[13.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.bash'
+[13.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.zsh'
+[13.059s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/colcon-core/packages/velodyne_laserscan)
+[13.239s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[13.318s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino' for CMake module files
+[13.322s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino' for CMake config files
+[13.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[13.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[13.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[13.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[13.411s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/lib'
+[13.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[13.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[13.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[13.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[13.497s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/bin'
+[13.497s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[13.498s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/lib/python3.10/site-packages'
+[13.499s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/bin'
+[13.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[13.581s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[13.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[13.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[13.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[13.590s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/Desktop/scrap_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[13.594s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_msgs)
+[13.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/Desktop/scrap_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/velodyne_msgs
+[13.675s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_msgs' for CMake module files
+[13.680s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_msgs' for CMake config files
+[13.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'cmake_prefix_path')
+[13.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.ps1'
+[13.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.dsv'
+[13.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.sh'
+[13.772s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib'
+[13.773s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'ld_library_path_lib')
+[13.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.ps1'
+[13.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.dsv'
+[13.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.sh'
+[13.857s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/bin'
+[13.857s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib/pkgconfig/velodyne_msgs.pc'
+[13.858s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib/python3.10/site-packages'
+[13.859s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/bin'
+[13.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/package.ps1'
+[13.941s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/package.dsv'
+[13.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/package.sh'
+[13.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/package.bash'
+[13.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/package.zsh'
+[13.949s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/colcon-core/packages/velodyne_msgs)
+[13.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/Desktop/scrap_ws/build/scrap_pkg': PYTHONPATH=/home/pi/Desktop/scrap_ws/build/scrap_pkg/prefix_override:/home/pi/Desktop/scrap_ws/install/scrap_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/Desktop/scrap_ws/build/scrap_pkg/build --no-deps install_data
+[14.487s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_msgs)
+[14.576s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_msgs' for CMake module files
+[14.581s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_msgs' for CMake config files
+[14.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'cmake_prefix_path')
+[14.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.ps1'
+[14.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.dsv'
+[14.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.sh'
+[14.689s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib'
+[14.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'ld_library_path_lib')
+[14.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.ps1'
+[14.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.dsv'
+[14.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.sh'
+[14.789s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/bin'
+[14.789s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib/pkgconfig/velodyne_msgs.pc'
+[14.790s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib/python3.10/site-packages'
+[14.791s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/bin'
+[14.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/package.ps1'
+[14.882s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/package.dsv'
+[14.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/package.sh'
+[14.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/package.bash'
+[14.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/velodyne_msgs/package.zsh'
+[14.891s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/Desktop/scrap_ws/install/velodyne_msgs/share/colcon-core/packages/velodyne_msgs)
+[14.893s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/Desktop/scrap_ws/src/velodyne/velodyne_driver' with build type 'ament_cmake'
+[14.894s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/Desktop/scrap_ws/src/velodyne/velodyne_driver'
+[15.024s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.024s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.230s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/Desktop/scrap_ws/src/velodyne/velodyne_pointcloud' with build type 'ament_cmake'
+[15.231s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/Desktop/scrap_ws/src/velodyne/velodyne_pointcloud'
+[15.324s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.325s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/Desktop/scrap_ws/build/velodyne_driver': AMENT_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/velodyne_driver -- -j4 -l4
+[15.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/Desktop/scrap_ws/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/velodyne_pointcloud -- -j4 -l4
+[16.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/Desktop/scrap_ws/build/velodyne_driver' returned '0': AMENT_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/velodyne_driver -- -j4 -l4
+[16.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/Desktop/scrap_ws/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/velodyne_pointcloud -- -j4 -l4
+[16.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/Desktop/scrap_ws/build/velodyne_driver': AMENT_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/velodyne_driver
+[16.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/Desktop/scrap_ws/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/velodyne_pointcloud
+[16.746s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_driver)
+[16.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/Desktop/scrap_ws/build/velodyne_driver' returned '0': AMENT_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/velodyne_driver
+[16.883s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_driver' for CMake module files
+[16.887s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_driver' for CMake config files
+[16.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'cmake_prefix_path')
+[17.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.ps1'
+[17.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.dsv'
+[17.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.sh'
+[17.027s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_driver/lib'
+[17.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'ld_library_path_lib')
+[17.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.ps1'
+[17.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.dsv'
+[17.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.sh'
+[17.168s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_driver/bin'
+[17.169s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_driver/lib/pkgconfig/velodyne_driver.pc'
+[17.170s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_driver/lib/python3.10/site-packages'
+[17.171s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_driver/bin'
+[17.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.ps1'
+[17.252s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.dsv'
+[17.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.sh'
+[17.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.bash'
+[17.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.zsh'
+[17.261s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/colcon-core/packages/velodyne_driver)
+[17.269s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_pointcloud)
+[17.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/Desktop/scrap_ws/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/velodyne_pointcloud
+[17.365s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud' for CMake module files
+[17.369s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud' for CMake config files
+[17.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'cmake_prefix_path')
+[17.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.ps1'
+[17.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.dsv'
+[17.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.sh'
+[17.468s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/lib'
+[17.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'ld_library_path_lib')
+[17.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.ps1'
+[17.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.dsv'
+[17.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.sh'
+[17.552s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/bin'
+[17.552s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/lib/pkgconfig/velodyne_pointcloud.pc'
+[17.553s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/lib/python3.10/site-packages'
+[17.554s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/bin'
+[17.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.ps1'
+[17.635s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv'
+[17.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.sh'
+[17.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.bash'
+[17.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.zsh'
+[17.643s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/colcon-core/packages/velodyne_pointcloud)
+[17.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('scrap_pkg', 'pythonpath_develop')
+[17.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/Desktop/scrap_ws/build/scrap_pkg' returned '0': PYTHONPATH=/home/pi/Desktop/scrap_ws/build/scrap_pkg/prefix_override:/home/pi/Desktop/scrap_ws/install/scrap_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/Desktop/scrap_ws/build/scrap_pkg/build --no-deps install_data
+[17.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/build/scrap_pkg/share/scrap_pkg/hook/pythonpath_develop.ps1'
+[17.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/build/scrap_pkg/share/scrap_pkg/hook/pythonpath_develop.dsv'
+[17.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/build/scrap_pkg/share/scrap_pkg/hook/pythonpath_develop.sh'
+[17.838s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/scrap_pkg' for CMake module files
+[17.841s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/scrap_pkg' for CMake config files
+[17.845s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/scrap_pkg/lib'
+[17.845s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/scrap_pkg/bin'
+[17.845s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/scrap_pkg/lib/pkgconfig/scrap_pkg.pc'
+[17.846s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/scrap_pkg/lib/python3.10/site-packages'
+[17.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('scrap_pkg', 'pythonpath')
+[17.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/hook/pythonpath.ps1'
+[17.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/hook/pythonpath.dsv'
+[17.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/hook/pythonpath.sh'
+[17.931s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/scrap_pkg/bin'
+[17.932s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scrap_pkg)
+[18.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/package.ps1'
+[18.014s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/package.dsv'
+[18.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/package.sh'
+[18.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/package.bash'
+[18.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/package.zsh'
+[18.023s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/Desktop/scrap_ws/install/scrap_pkg/share/colcon-core/packages/scrap_pkg)
+[18.107s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_driver)
+[18.184s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_driver' for CMake module files
+[18.188s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_driver' for CMake config files
+[18.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'cmake_prefix_path')
+[18.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.ps1'
+[18.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.dsv'
+[18.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.sh'
+[18.276s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_driver/lib'
+[18.277s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'ld_library_path_lib')
+[18.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.ps1'
+[18.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.dsv'
+[18.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.sh'
+[18.376s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_driver/bin'
+[18.377s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_driver/lib/pkgconfig/velodyne_driver.pc'
+[18.378s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_driver/lib/python3.10/site-packages'
+[18.379s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_driver/bin'
+[18.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.ps1'
+[18.465s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.dsv'
+[18.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.sh'
+[18.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.bash'
+[18.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.zsh'
+[18.476s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/Desktop/scrap_ws/install/velodyne_driver/share/colcon-core/packages/velodyne_driver)
+[18.592s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_pointcloud)
+[18.707s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud' for CMake module files
+[18.710s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud' for CMake config files
+[18.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'cmake_prefix_path')
+[18.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.ps1'
+[18.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.dsv'
+[18.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.sh'
+[18.841s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/lib'
+[18.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'ld_library_path_lib')
+[18.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.ps1'
+[18.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.dsv'
+[18.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.sh'
+[18.935s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/bin'
+[18.935s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/lib/pkgconfig/velodyne_pointcloud.pc'
+[18.936s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/lib/python3.10/site-packages'
+[18.937s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/bin'
+[19.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.ps1'
+[19.019s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv'
+[19.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.sh'
+[19.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.bash'
+[19.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.zsh'
+[19.028s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/share/colcon-core/packages/velodyne_pointcloud)
+[19.030s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/Desktop/scrap_ws/src/velodyne/velodyne' with build type 'ament_cmake'
+[19.030s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/Desktop/scrap_ws/src/velodyne/velodyne'
+[19.116s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.116s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/Desktop/scrap_ws/build/velodyne': AMENT_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud:/home/pi/Desktop/scrap_ws/install/velodyne_driver:/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/home/pi/Desktop/scrap_ws/install/velodyne_laserscan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud:/home/pi/Desktop/scrap_ws/install/velodyne_driver:/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/home/pi/Desktop/scrap_ws/install/velodyne_laserscan:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/lib:/home/pi/Desktop/scrap_ws/install/velodyne_driver/lib:/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib:/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/velodyne -- -j4 -l4
+[19.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/Desktop/scrap_ws/build/velodyne' returned '0': AMENT_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud:/home/pi/Desktop/scrap_ws/install/velodyne_driver:/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/home/pi/Desktop/scrap_ws/install/velodyne_laserscan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud:/home/pi/Desktop/scrap_ws/install/velodyne_driver:/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/home/pi/Desktop/scrap_ws/install/velodyne_laserscan:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/lib:/home/pi/Desktop/scrap_ws/install/velodyne_driver/lib:/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib:/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/velodyne -- -j4 -l4
+[19.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/Desktop/scrap_ws/build/velodyne': AMENT_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud:/home/pi/Desktop/scrap_ws/install/velodyne_driver:/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/home/pi/Desktop/scrap_ws/install/velodyne_laserscan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud:/home/pi/Desktop/scrap_ws/install/velodyne_driver:/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/home/pi/Desktop/scrap_ws/install/velodyne_laserscan:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/lib:/home/pi/Desktop/scrap_ws/install/velodyne_driver/lib:/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib:/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/velodyne
+[19.745s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne)
+[19.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/Desktop/scrap_ws/build/velodyne' returned '0': AMENT_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud:/home/pi/Desktop/scrap_ws/install/velodyne_driver:/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/home/pi/Desktop/scrap_ws/install/velodyne_laserscan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud:/home/pi/Desktop/scrap_ws/install/velodyne_driver:/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/home/pi/Desktop/scrap_ws/install/velodyne_laserscan:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud/lib:/home/pi/Desktop/scrap_ws/install/velodyne_driver/lib:/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib:/home/pi/Desktop/scrap_ws/install/velodyne_laserscan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/velodyne
+[19.830s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne' for CMake module files
+[19.834s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne' for CMake config files
+[19.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne', 'cmake_prefix_path')
+[19.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.ps1'
+[19.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.dsv'
+[19.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.sh'
+[19.922s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne/bin'
+[19.922s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne/lib/pkgconfig/velodyne.pc'
+[19.923s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne/lib/python3.10/site-packages'
+[19.924s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne/bin'
+[20.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/package.ps1'
+[20.006s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/package.dsv'
+[20.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/package.sh'
+[20.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/package.bash'
+[20.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/package.zsh'
+[20.013s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/Desktop/scrap_ws/install/velodyne/share/colcon-core/packages/velodyne)
+[20.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne)
+[20.276s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne' for CMake module files
+[20.279s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne' for CMake config files
+[20.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne', 'cmake_prefix_path')
+[20.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.ps1'
+[20.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.dsv'
+[20.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.sh'
+[20.367s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne/bin'
+[20.367s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne/lib/pkgconfig/velodyne.pc'
+[20.368s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne/lib/python3.10/site-packages'
+[20.369s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Desktop/scrap_ws/install/velodyne/bin'
+[20.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/package.ps1'
+[20.451s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/package.dsv'
+[20.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/package.sh'
+[20.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/package.bash'
+[20.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/package.zsh'
+[20.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/Desktop/scrap_ws/install/velodyne/share/colcon-core/packages/velodyne)
+[20.461s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.462s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.463s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[20.463s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.564s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.565s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.565s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.606s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.686s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/Desktop/scrap_ws/install/local_setup.ps1'
+[20.690s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/Desktop/scrap_ws/install/_local_setup_util_ps1.py'
+[20.696s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/Desktop/scrap_ws/install/setup.ps1'
+[20.778s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/Desktop/scrap_ws/install/local_setup.sh'
+[20.780s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/Desktop/scrap_ws/install/_local_setup_util_sh.py'
+[20.782s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/Desktop/scrap_ws/install/setup.sh'
+[20.864s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/Desktop/scrap_ws/install/local_setup.bash'
+[20.866s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/Desktop/scrap_ws/install/setup.bash'
+[20.947s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/Desktop/scrap_ws/install/local_setup.zsh'
+[20.949s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/Desktop/scrap_ws/install/setup.zsh'

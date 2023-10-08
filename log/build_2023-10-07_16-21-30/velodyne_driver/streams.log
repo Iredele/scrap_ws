@@ -1,0 +1,44 @@
+[0.817s] Invoking command in '/home/pi/Desktop/scrap_ws/build/velodyne_driver': AMENT_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/velodyne_driver -- -j4 -l4
+[1.152s] [ 16%] Built target gtest_main
+[1.183s] [ 33%] Built target velodyne_input
+[1.200s] [ 50%] Built target gtest
+[1.409s] [ 66%] Built target velodyne_driver
+[1.445s] [ 83%] Built target time_test
+[1.568s] [100%] Built target velodyne_driver_node
+[1.622s] Invoked command in '/home/pi/Desktop/scrap_ws/build/velodyne_driver' returned '0': AMENT_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/velodyne_driver -- -j4 -l4
+[1.816s] Invoking command in '/home/pi/Desktop/scrap_ws/build/velodyne_driver': AMENT_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/velodyne_driver
+[1.848s] -- Install configuration: ""
+[1.850s] -- Execute custom install script
+[1.852s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/lib/libvelodyne_input.so
+[1.854s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/lib/libvelodyne_driver.so
+[1.856s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/lib/velodyne_driver/velodyne_driver_node
+[1.858s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/include/velodyne_driver/driver.hpp
+[1.859s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/include/velodyne_driver/input.hpp
+[1.860s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/include/velodyne_driver/time_conversion.hpp
+[1.862s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/config/VLP16-velodyne_driver_node-params.yaml
+[1.863s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/config/VLP32C-velodyne_driver_node-params.yaml
+[1.864s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/config/VLS128-velodyne_driver_node-params.yaml
+[1.866s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP16-composed-launch.py
+[1.867s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP16-launch.py
+[1.868s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP32C-composed-launch.py
+[1.869s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP32C-launch.py
+[1.870s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLS128-composed-launch.py
+[1.871s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLS128-launch.py
+[1.872s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/lib/velodyne_driver/vdump
+[1.874s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/ament_index/resource_index/package_run_dependencies/velodyne_driver
+[1.875s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/ament_index/resource_index/parent_prefix_path/velodyne_driver
+[1.877s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/environment/ament_prefix_path.sh
+[1.878s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/environment/ament_prefix_path.dsv
+[1.880s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/environment/path.sh
+[1.881s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/environment/path.dsv
+[1.882s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/local_setup.bash
+[1.883s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/local_setup.sh
+[1.884s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/local_setup.zsh
+[1.886s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/local_setup.dsv
+[1.887s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.dsv
+[1.927s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/ament_index/resource_index/packages/velodyne_driver
+[1.928s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/ament_index/resource_index/rclcpp_components/velodyne_driver
+[1.930s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverConfig.cmake
+[1.931s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverConfig-version.cmake
+[1.933s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_driver/share/velodyne_driver/package.xml
+[1.949s] Invoked command in '/home/pi/Desktop/scrap_ws/build/velodyne_driver' returned '0': AMENT_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Desktop/scrap_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/velodyne_driver

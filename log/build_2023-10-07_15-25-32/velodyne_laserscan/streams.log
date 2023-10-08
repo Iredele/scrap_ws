@@ -1,0 +1,30 @@
+[0.907s] Invoking command in '/home/pi/Desktop/scrap_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/velodyne_laserscan -- -j4 -l4
+[1.301s] [ 50%] Built target velodyne_laserscan
+[1.525s] [100%] Built target velodyne_laserscan_node
+[3.367s] Invoked command in '/home/pi/Desktop/scrap_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/velodyne_laserscan -- -j4 -l4
+[3.594s] Invoking command in '/home/pi/Desktop/scrap_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/velodyne_laserscan
+[3.636s] -- Install configuration: ""
+[3.639s] -- Execute custom install script
+[3.642s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/lib/libvelodyne_laserscan.so
+[3.645s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/lib/velodyne_laserscan/velodyne_laserscan_node
+[3.650s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/include/velodyne_laserscan/velodyne_laserscan.hpp
+[3.652s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/config/default-velodyne_laserscan_node-params.yaml
+[3.668s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-composed-launch.py
+[3.669s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-launch.py
+[3.672s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/ament_index/resource_index/package_run_dependencies/velodyne_laserscan
+[3.674s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/ament_index/resource_index/parent_prefix_path/velodyne_laserscan
+[3.675s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.sh
+[3.679s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.dsv
+[3.680s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.sh
+[3.681s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.dsv
+[3.685s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.bash
+[3.687s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.sh
+[3.690s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.zsh
+[3.692s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.dsv
+[3.694s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv
+[3.742s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/ament_index/resource_index/packages/velodyne_laserscan
+[3.745s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/ament_index/resource_index/rclcpp_components/velodyne_laserscan
+[3.746s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig.cmake
+[3.747s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig-version.cmake
+[3.749s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.xml
+[4.260s] Invoked command in '/home/pi/Desktop/scrap_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/velodyne_laserscan

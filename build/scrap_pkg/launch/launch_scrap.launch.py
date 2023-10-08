@@ -1,0 +1,1 @@
+/home/pi/Desktop/scrap_ws/src/scrap_pkg/launch/launch_scrap.launch.py

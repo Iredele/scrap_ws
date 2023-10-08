@@ -1,0 +1,27 @@
+[0.526s] Invoking command in '/home/pi/Desktop/scrap_ws/build/velodyne': CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud:/home/pi/Desktop/scrap_ws/install/velodyne_driver:/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/home/pi/Desktop/scrap_ws/install/velodyne_laserscan:/home/pi/Desktop/scrap_ws/install/velodyne:/home/pi/Desktop/scrap_ws/install/diffdrive_arduino:/home/pi/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/velodyne -- -j4 -l4
+[0.709s] Invoked command in '/home/pi/Desktop/scrap_ws/build/velodyne' returned '0': CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud:/home/pi/Desktop/scrap_ws/install/velodyne_driver:/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/home/pi/Desktop/scrap_ws/install/velodyne_laserscan:/home/pi/Desktop/scrap_ws/install/velodyne:/home/pi/Desktop/scrap_ws/install/diffdrive_arduino:/home/pi/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pi/Desktop/scrap_ws/build/velodyne -- -j4 -l4
+[0.854s] Invoking command in '/home/pi/Desktop/scrap_ws/build/velodyne': CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud:/home/pi/Desktop/scrap_ws/install/velodyne_driver:/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/home/pi/Desktop/scrap_ws/install/velodyne_laserscan:/home/pi/Desktop/scrap_ws/install/velodyne:/home/pi/Desktop/scrap_ws/install/diffdrive_arduino:/home/pi/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/velodyne
+[0.892s] -- Install configuration: ""
+[0.894s] -- Execute custom install script
+[0.896s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/launch/velodyne-all-nodes-VLP16-composed-launch.py
+[0.897s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/launch/velodyne-all-nodes-VLP16-launch.py
+[0.898s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/launch/velodyne-all-nodes-VLP32C-composed-launch.py
+[0.899s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/launch/velodyne-all-nodes-VLP32C-launch.py
+[0.900s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/launch/velodyne-all-nodes-VLS128-composed-launch.py
+[0.901s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/launch/velodyne-all-nodes-VLS128-launch.py
+[0.902s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne/share/ament_index/resource_index/package_run_dependencies/velodyne
+[0.904s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne/share/ament_index/resource_index/parent_prefix_path/velodyne
+[0.905s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/environment/ament_prefix_path.sh
+[0.907s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/environment/ament_prefix_path.dsv
+[0.908s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/environment/path.sh
+[0.909s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/environment/path.dsv
+[0.910s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/local_setup.bash
+[0.911s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/local_setup.sh
+[0.912s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/local_setup.zsh
+[0.914s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/local_setup.dsv
+[0.914s] -- Symlinking: /home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/package.dsv
+[0.957s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne/share/ament_index/resource_index/packages/velodyne
+[0.958s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/cmake/velodyneConfig.cmake
+[0.959s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/cmake/velodyneConfig-version.cmake
+[0.960s] -- Up-to-date symlink: /home/pi/Desktop/scrap_ws/install/velodyne/share/velodyne/package.xml
+[0.967s] Invoked command in '/home/pi/Desktop/scrap_ws/build/velodyne' returned '0': CMAKE_PREFIX_PATH=/home/pi/Desktop/scrap_ws/install/velodyne_pointcloud:/home/pi/Desktop/scrap_ws/install/velodyne_driver:/home/pi/Desktop/scrap_ws/install/velodyne_msgs:/home/pi/Desktop/scrap_ws/install/velodyne_laserscan:/home/pi/Desktop/scrap_ws/install/velodyne:/home/pi/Desktop/scrap_ws/install/diffdrive_arduino:/home/pi/Desktop/scrap_ws/install/scrap_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pi/Desktop/scrap_ws/build/velodyne

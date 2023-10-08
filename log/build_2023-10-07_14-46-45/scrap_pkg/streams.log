@@ -1,0 +1,45 @@
+[9.701s] Invoking command in '/home/pi/Desktop/scrap_ws/build/scrap_pkg': PYTHONPATH=/home/pi/Desktop/scrap_ws/build/scrap_pkg/prefix_override:/home/pi/Desktop/scrap_ws/install/scrap_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/Desktop/scrap_ws/build/scrap_pkg/build --no-deps install_data
+[11.236s] running develop
+[11.305s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[11.305s]   warnings.warn(
+[11.348s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[11.349s]   warnings.warn(
+[12.402s] running egg_info
+[12.403s] creating scrap_pkg.egg-info
+[12.403s] writing scrap_pkg.egg-info/PKG-INFO
+[12.404s] writing dependency_links to scrap_pkg.egg-info/dependency_links.txt
+[12.405s] writing entry points to scrap_pkg.egg-info/entry_points.txt
+[12.406s] writing requirements to scrap_pkg.egg-info/requires.txt
+[12.406s] writing top-level names to scrap_pkg.egg-info/top_level.txt
+[12.407s] writing manifest file 'scrap_pkg.egg-info/SOURCES.txt'
+[12.416s] reading manifest file 'scrap_pkg.egg-info/SOURCES.txt'
+[12.419s] writing manifest file 'scrap_pkg.egg-info/SOURCES.txt'
+[13.229s] running build_ext
+[13.230s] Creating /home/pi/Desktop/scrap_ws/install/scrap_pkg/lib/python3.10/site-packages/scrap-pkg.egg-link (link to .)
+[13.235s] Installing motor_node script to /home/pi/Desktop/scrap_ws/install/scrap_pkg/lib/scrap_pkg
+[13.237s] 
+[13.237s] Installed /home/pi/Desktop/scrap_ws/build/scrap_pkg
+[13.238s] running install_data
+[13.239s] creating /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/ament_index
+[13.239s] creating /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/ament_index/resource_index
+[13.239s] creating /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/ament_index/resource_index/packages
+[13.240s] copying resource/scrap_pkg -> /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/ament_index/resource_index/packages
+[13.240s] copying package.xml -> /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg
+[13.241s] creating /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/launch
+[13.241s] copying launch/rsp.launch.py -> /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/launch
+[14.027s] copying launch/launch_scrap.launch.py -> /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/launch
+[15.056s] copying launch/scrap.launch.py -> /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/launch
+[15.072s] creating /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/config
+[15.073s] copying config/view_bot.rviz -> /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/config
+[15.091s] copying config/my_controllers.yaml -> /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/config
+[15.097s] creating /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/description
+[15.099s] copying description/inertial_macros.xacro -> /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/description
+[15.102s] copying description/gazebo_control.xacro -> /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/description
+[15.107s] copying description/depth_camera.xacro -> /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/description
+[15.112s] copying description/robot.urdf.xacro -> /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/description
+[15.119s] copying description/lidar.xacro -> /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/description
+[15.160s] copying description/robot_core.xacro -> /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/description
+[15.203s] copying description/camera.xacro -> /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/description
+[15.245s] copying description/ros2_control.xacro -> /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/description
+[15.289s] copying description/face.xacro -> /home/pi/Desktop/scrap_ws/install/scrap_pkg/share/scrap_pkg/description
+[15.496s] Invoked command in '/home/pi/Desktop/scrap_ws/build/scrap_pkg' returned '0': PYTHONPATH=/home/pi/Desktop/scrap_ws/build/scrap_pkg/prefix_override:/home/pi/Desktop/scrap_ws/install/scrap_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/Desktop/scrap_ws/build/scrap_pkg/build --no-deps install_data
