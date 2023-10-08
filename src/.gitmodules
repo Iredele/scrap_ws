@@ -2,3 +2,6 @@
 	path = usb_cam
 	url = git@github.com:ros-drivers/usb_cam.git
 	branch = ros2
+[submodule "diff_drive_HWInterface"]
+	path = diff_drive_HWInterface
+	url = https://github.com/Iredele/diff_drive_HWInterface.git
