@@ -1,1 +1,0 @@
-/home/pi/Desktop/scrap_ws/src/diff_drive_HWInterface/description/launch/view_robot.launch.py

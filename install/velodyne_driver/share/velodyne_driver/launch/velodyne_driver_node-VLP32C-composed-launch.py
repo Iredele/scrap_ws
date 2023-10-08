@@ -1,1 +1,0 @@
-/home/pi/Desktop/scrap_ws/src/velodyne/velodyne_driver/launch/velodyne_driver_node-VLP32C-composed-launch.py
