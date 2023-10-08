@@ -1,3 +1,0 @@
-[console_scripts]
-motor_node = scrap_pkg.motor_node:main
-
