@@ -1,0 +1,4 @@
+[submodule "diff_drive_HWInterface"]
+	path = diff_drive_HWInterface
+	url = https://github.com/Iredele/diff_drive_HWInterface.git
+
