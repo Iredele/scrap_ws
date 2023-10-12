@@ -1,6 +1,6 @@
 # Smart Crossing Robot Assistant for Pedestrians
 After cloning the repository with `git clone <repo-link> --recurse-submodules`:
-- cd /scrap_ws
+- `cd /scrap_ws`
 - Run `rosdep install --from-paths src --ignore-src -r -y`
 - Run `colcon build --symlink-install`
 - For the camera install the V4l using `sudo apt insall libraspberrypi-bin v4l-utils ros-humble-v4l2-camera`
