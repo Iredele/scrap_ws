@@ -34,7 +34,7 @@ Follow these steps to set up the project:
 
     sudo usermod -aG video $USER
 Log out and log back in for the changes to take effect.
-6. **Launching the Project**
+## Launching the Project
 After successfully building the project, follow these steps to launch the system:
 
   1. Source the Workspace
