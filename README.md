@@ -8,25 +8,30 @@ The **Smart Crossing Robot Assistant for Pedestrians** is a ROS 2-based project 
 
 Follow these steps to set up the project:
 
-1. **Clone the Repository**
+1. **Make a new directory**
+    ```bash
+    mkdir scrap_ws
+    cd scrap_ws
+
+2. **Clone the Repository**
 
    Clone the repository along with its submodules:
 
    ```bash
-   git clone https://github.com/Iredele/scrap_ws.git --recurse-submodules
+   git clone https://github.com/Iredele/scrap_ws.git --recurse-submodules ./src
 
-2. **Navigate to the Workspace**
+3. **Navigate to the source directory**
    ```bash
-   cd scrap_ws
-3. **Install Dependencies**
+   cd src
+4. **Install Dependencies**
    Use `rosdep` to install all necessary dependencies:
    ```bash
    rosdep install --from-paths src --ignore-src -r -y
-4. **Build the Project**
-   Build the workspace using `colcon`:
+5. **Build the Project**
+   Change directory back to the scrap_ws and Build the workspace using `colcon`:
    ```bash
    colcon build --symlink-install
-5. **Setup the Camera**
+6. **Setup the Camera**
    Install the required packages for camera support:
    ```bash
    sudo apt install libraspberrypi-bin v4l-utils ros-humble-v4l2-camera
